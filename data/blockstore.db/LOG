@@ -1,0 +1,71 @@
+=============== Aug 23, 2024 (CEST) ===============
+23:21:36.232518 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+23:21:36.246400 db@open opening
+23:21:36.246737 version@stat F·[] S·0B[] Sc·[]
+23:21:36.255827 db@janitor F·2 G·0
+23:21:36.255897 db@open done T·9.476084ms
+23:24:14.475830 memdb@flush N·361 S·3MiB
+23:24:14.494029 memdb@flush created L0@3 N·361 S·1MiB "BH:..d56,v207":"blo..ore,v6"
+23:24:14.494057 version@stat F·[1] S·1MiB[1MiB] Sc·[0.25]
+23:24:14.498378 memdb@flush committed F·1 T·22.528291ms
+23:24:14.498971 journal@remove removed @1
+23:25:00.208457 memdb@flush N·149 S·3MiB
+23:25:00.227018 memdb@flush created L0@5 N·149 S·1MiB "BH:..5e0,v388":"blo..ore,v371"
+23:25:00.227061 version@stat F·[2] S·3MiB[3MiB] Sc·[0.50]
+23:25:00.231446 memdb@flush committed F·1 T·22.962333ms
+23:25:00.231784 journal@remove removed @2
+23:25:00.356558 table@compaction L0·2 -> L1·0 S·3MiB Q·517
+23:25:00.370060 table@build created L1@6 N·310 S·2MiB "BH:..d56,v207":"P:54:0,v382"
+23:25:00.380623 table@build created L1@7 N·135 S·1MiB "P:54:1,v383":"blo..ore,v507"
+23:25:00.380667 version@stat F·[0 2] S·3MiB[0B 3MiB] Sc·[0.00 0.04]
+23:25:00.385055 table@compaction committed F~ S-1KiB Ke·0 D·65 T·28.450917ms
+23:25:00.385470 table@remove removed @5
+23:25:00.385604 table@remove removed @3
+23:25:48.994623 memdb@flush N·152 S·3MiB
+23:25:49.012053 memdb@flush created L0@9 N·152 S·1MiB "BH:..21c,v534":"blo..ore,v517"
+23:25:49.012091 version@stat F·[1 2] S·5MiB[1MiB 3MiB] Sc·[0.25 0.04]
+23:25:49.016222 memdb@flush committed F·1 T·21.571749ms
+23:25:49.016534 journal@remove removed @4
+23:26:37.764791 memdb@flush N·150 S·3MiB
+23:26:37.782608 memdb@flush created L0@11 N·150 S·1MiB "BH:..e57,v713":"blo..ore,v669"
+23:26:37.782654 version@stat F·[2 2] S·6MiB[3MiB 3MiB] Sc·[0.50 0.04]
+23:26:37.786894 memdb@flush committed F·1 T·22.080751ms
+23:26:37.787234 journal@remove removed @8
+23:26:37.901786 table@compaction L0·2 -> L1·2 S·6MiB Q·820
+23:26:37.924486 table@build created L1@12 N·406 S·2MiB "BH:..21c,v534":"P:54:0,v382"
+23:26:37.934938 table@build created L1@13 N·88 S·2MiB "P:54:1,v383":"P:72:1,v558"
+23:26:37.947577 table@build created L1@14 N·84 S·2MiB "P:72:2,v559":"P:90:3,v730"
+23:26:37.955611 table@build created L1@15 N·137 S·940KiB "P:91:0,v736":"blo..ore,v811"
+23:26:37.955650 version@stat F·[0 4] S·6MiB[0B 6MiB] Sc·[0.00 0.07]
+23:26:37.959610 table@compaction committed F~ S-1KiB Ke·0 D·32 T·57.711792ms
+23:26:37.959930 table@remove removed @11
+23:26:37.960039 table@remove removed @9
+23:26:37.960155 table@remove removed @6
+23:26:37.960265 table@remove removed @7
+23:27:26.522577 memdb@flush N·149 S·3MiB
+23:27:26.539520 memdb@flush created L0@17 N·149 S·1MiB "BH:..6b8,v836":"blo..ore,v820"
+23:27:26.539567 version@stat F·[1 4] S·8MiB[1MiB 6MiB] Sc·[0.25 0.07]
+23:27:26.544066 memdb@flush committed F·1 T·21.466042ms
+23:27:26.544514 journal@remove removed @10
+23:28:15.252320 memdb@flush N·148 S·3MiB
+23:28:15.269842 memdb@flush created L0@19 N·148 S·1MiB "BH:..6fc,v966":"blo..ore,v969"
+23:28:15.269891 version@stat F·[2 4] S·10MiB[3MiB 6MiB] Sc·[0.50 0.07]
+23:28:15.274003 memdb@flush committed F·1 T·21.661292ms
+23:28:15.274334 journal@remove removed @16
+23:28:15.395783 table@compaction L0·2 -> L1·4 S·10MiB Q·1116
+23:28:15.408797 table@build created L1@20 N·469 S·2MiB "BH:..21c,v534":"P:117:3,v983"
+23:28:15.420680 table@build created L1@21 N·107 S·2MiB "P:118:0,v989":"P:41:2,v258"
+23:28:15.432931 table@build created L1@22 N·88 S·2MiB "P:41:3,v259":"P:59:3,v435"
+23:28:15.445654 table@build created L1@23 N·87 S·2MiB "P:59:4,v436":"P:78:1,v615"
+23:28:15.457617 table@build created L1@24 N·84 S·2MiB "P:78:2,v616":"P:96:3,v787"
+23:28:15.463227 table@build created L1@25 N·145 S·351KiB "P:96:4,v788":"blo..ore,v1107"
+23:28:15.463287 version@stat F·[0 6] S·10MiB[0B 10MiB] Sc·[0.00 0.10]
+23:28:15.467552 table@compaction committed F~ S-57B Ke·0 D·32 T·71.726083ms
+23:28:15.467865 table@remove removed @19
+23:28:15.467985 table@remove removed @17
+23:28:15.468093 table@remove removed @12
+23:28:15.468519 table@remove removed @13
+23:28:15.468621 table@remove removed @14
+23:28:15.468701 table@remove removed @15
+23:28:40.170026 db@close closing
+23:28:40.170079 db@close done T·51.917µs
